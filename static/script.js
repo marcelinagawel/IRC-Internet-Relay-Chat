@@ -58,7 +58,7 @@ var gadanie = {
 
       if (podana_wiadomosc.slice(5, podana_wiadomosc.length) != "") { //wez od 5 (od 0 i spacja), nie moze byc puste
 
-        fetch("/newNickname", {       //wyslij fetchem -> fetch jest sam w sobie asynchroniczny
+        fetch("/nick_podany", {       //wyslij fetchem -> fetch jest sam w sobie asynchroniczny
           method: "POST",
           headers: {
             "Content-Type": "application/json",

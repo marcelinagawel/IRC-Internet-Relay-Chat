@@ -63,7 +63,7 @@ app.get("/color", (req, res) => {   //zmiana kolorku
 
 
 
-app.post("/newNickname", function (req, res) {  //zmiana nicku
+app.post("/nick_podany", function (req, res) {  //zmiana nicku
     req.session.wprowadzenie_nicku = req.body.wprowadzenie_nicku    //wprowadzony nowy nick
     res.sendStatus(200)
 })

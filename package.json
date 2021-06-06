@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express-session": "^1.17.1",
-    "node": "^16.1.0"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
